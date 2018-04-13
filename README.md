@@ -9,3 +9,5 @@ Hi! Swedish(not swiss) student. Trying out GitHub and trying to learn how to cod
 
 ### Contact
 [Email me!](mailto:technicproblem@outlook.com)
+
+[logo]({{ technicproblem.github.io }}/assets/image.png)
