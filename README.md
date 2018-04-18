@@ -6,6 +6,7 @@ Hi! Swedish(not swiss) student. Trying out GitHub and trying to learn how to cod
 
 ### Projects
 256: 2048 fork, you win if you get 256. [Game](https://technicproblem.github.io/2048/)
+Loading: An infinite loading screen. [Site](https://technicproblem.github.io/loading/)
 
 ### Contact
 [Email me!](mailto:technicproblem@outlook.com)
