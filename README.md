@@ -15,3 +15,6 @@ Even newer website, coded by myself. [New Site](https://technicproblem.github.io
 ### Contact
 [Email me!](mailto:technicproblem@outlook.com)
 Please do not send any kind of spam to me, I'm not interested.
+
+### Other Stuff
+[SoundCloud](https://soundcloud.com/technicproblem2)
