@@ -1,4 +1,5 @@
 /**
+ * Selfhosted because I need to turn off cookies.
  *
  * @source: https://github.com/fightforthefuture/eunetneutrality
  *
