@@ -18,5 +18,3 @@ Please do not send any kind of spam to me, I'm not interested.
 
 ### Other Stuff
 [SoundCloud](https://soundcloud.com/technicproblem2)
-
-<script src="/euinternet.js"></script>
