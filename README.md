@@ -10,6 +10,8 @@ Hi! Swedish(not swiss) student. Trying out GitHub and trying to learn how to cod
 Loading: An infinite loading screen. [Site](https://technicproblem.github.io/loading/)
 
 New website, coded by myself. [New Site](https://technicproblem.github.io/website/)
+
+Games: Some games I make while learning Unity3D. [Games](https://technicproblem.github.io/games/)
 ### Contact
 [Email me!](mailto:technicproblem@outlook.com)
 Please do not send any kind of spam to me, I'm not interested.
