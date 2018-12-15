@@ -2,7 +2,7 @@
 Welcome to an useless site where you can't do anything!
 
 ### About
-Hi! Swedish(not swiss) student. Trying out GitHub and trying to learn how to code. I have a basic understanding of C#, HTML, CSS and Python. I think can make a website(but i didn't make this one).
+Hi! Swedish(not swiss) student. Trying out GitHub and trying to learn how to code. I have a basic understanding of C#, HTML, CSS and Python. I think I can make a website(but i didn't make this one).
 
 ### Projects
 256: 2048 fork, you win if you get 256. [Game](https://technicproblem.github.io/2048/)
