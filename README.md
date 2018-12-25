@@ -12,6 +12,8 @@ Loading: An infinite loading screen. [Site](https://technicproblem.github.io/loa
 New website, coded by myself. (Not worked on anymore) [New Site](https://technicproblem.github.io/website/)
 
 Games: Some games I make while learning Unity3D. [Games](https://technicproblem.github.io/games/)
+
+ModBlock: A Minecraft mod pack. [Website](https://technicproblem.github.io/modblock/)
 ### Contact
 [Email me!](mailto:technicproblem@outlook.com)
 Please do not send any kind of spam to me, I'm not interested.
