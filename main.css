@@ -92,3 +92,11 @@ technicproblem.github.io
   padding: 0.25em;
   height: 2em;
 }
+
+@media screen and (max-width: 800px) {
+ h1 {
+   font-size: 10vw;
+ }
+
+
+}
