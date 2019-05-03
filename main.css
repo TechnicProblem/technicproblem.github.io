@@ -111,4 +111,5 @@ body {
 .navbar {
   margin-top: auto;
   font-weight: 600;
+  font-size: initial;
 }
