@@ -1,115 +1,132 @@
-/*
-_______        _           _      _____           _     _
-|__   __|     | |         (_)    |  __ \         | |   | |
-  | | ___  ___| |__  _ __  _  ___| |__) | __ ___ | |__ | | ___ _ __ ___
-  | |/ _ \/ __| '_ \| '_ \| |/ __|  ___/ '__/ _ \| '_ \| |/ _ \ '_ ` _ \
-  | |  __/ (__| | | | | | | | (__| |   | | | (_) | |_) | |  __/ | | | | |
-  |_|\___|\___|_| |_|_| |_|_|\___|_|   |_|  \___/|_.__/|_|\___|_| |_| |_|
+/*   main.css
+   © TechnicProblem 2019-2020
+  technicproblem.github.io    */
 
-main.css
-© TechnicProblem 2019
-technicproblem.github.io
-*/
+html {
+  font-family: 'Roboto Slab', sans-serif;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap');
 
 .header {
-  height: 19rem;
-  color: white;
-  display: flex;
-  flex-direction: column;
+  transform: skewY(-8deg);
+}
+
+html, body {
+  margin: 0;
+}
+
+.nav {
+  height: 30rem;
+  padding-bottom: 40rem;
+  page-break-after: always; /* CSS 2.1 syntax */
+  break-after: always; /* New syntax */
+
+}
+
+.indexhead {
+  background-color: #17a2b8;
+}
+
+.indexnav {
+  background-color: #0C91A6;
+}
+
+.link {
+  color: #2D6FE1;
+}
+.link:hover {
+  text-decoration: underline;
+}
+
+.nope {
+  user-drag: none;
+user-select: none;
+-moz-user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-ms-user-select: none;
 }
 
 .heading {
-  font-size: 5rem;
-  text-align: center;
+  font-family: 'Roboto Slab', sans-serif;
 }
 
-.subtitle {
-  color: #ddd;
-  text-align: center;
+.heading:hover {
+  text-decoration: underline;
 }
 
-
-.col-sm-4 {
-  width: 100%;
+.gridcontainer {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-template-areas:
+  "hd hd hd hd hd hd hd nv nv"
+  "hd hd hd hd hd hd hd nv nv"
+  "ct ct ct ct ct ct ct nv nv"
+  "ct ct ct ct ct ct ct nv nv";
 }
-
-.navigation {
-  padding-left: 5rem;
-  padding-right: 5rem;
+.header {
+  grid-area: hd;
 }
+.nav {
+  grid-area: nv;
+  height: 100px;
 
-.navigation-button {
-  padding: 2em;
-  text-align: center;
-  border: 3px solid #ccc;
-  color: #fff;
 }
-
-.button-about {
-  background-color: #fd7e14;
-}
-
-.button-projects {
-  background-color: #28a745;
-}
-
-.button-contact {
-  background-color: #007bff;
-}
-
-.footer {
-  position: absolute;
-  bottom: 0;
-  background-color: #ddd;
-  width: 100%;
-  padding: 0.25em;
-  height: 2em;
-}
-
-/*.footertext {
-    vertical-align: top;
-    display: inline-block;
-}*/
-
-.bg-orange {
-  background-color: #fd7e14;
-}
-
-.bg-green {
-  background-color: #28a745;
-}
-
-.bg-blue {
-  background-color: #007bff;
-}
-
-.btn-home {
-  width: 15rem;
-}
-
-.footer-projects {
-  position: relative;
-  bottom: 0;
-  background-color: #ddd;
-  width: 100%;
-  padding: 0.25em;
-  height: 2em;
-}
-
-body {
+html {
   overflow-x: hidden;
+  max-height: 100vh;
+}
+.content {
+  grid-area: ct;
+  margin-left: 3rem;
+}
+.nowidth {
+  display: none;
+  visibility: hidden;
 }
 
-@media screen and (max-width: 800px) {
- h1 {
-   font-size: 10vw;
- }
-
-
+@media (max-width: 1110px) {
+  .gridcontainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas:
+    "hd hd hd hd hd"
+    "nv nv ct ct ct"
+    "ct ct ct ct ct"
+    "ct ct ct ct ct";
+  }
+  .header {
+    transform: skewY(0deg);
+  }
 }
+@media (max-width: 884px) {
+  .gridcontainer {
+    display: block;
+  }
+  .nav {
+    padding-bottom: 20rem;
+    width: 15rem;
+  }
+  .header {
+    transform: skewY(0deg);
+  }
+}
+@media (max-width: 620px) {
+  .header {
+    width: none;
+    padding-bottom: 12rem;
+  }
+  .fullwidth {
+    display: none;
+    visibility: hidden;
+  }
+  .nowidth {
+    display: block;
+  }
 
-.navbar {
-  margin-top: auto;
-  font-weight: 600;
-  font-size: initial;
 }
