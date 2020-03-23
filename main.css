@@ -102,7 +102,11 @@ html {
   }
   .header {
     transform: skewY(0deg);
+     z-index: -1;
   }
+   .nav {
+    z-index: 10;  
+   }
 }
 @media (max-width: 884px) {
   .gridcontainer {
