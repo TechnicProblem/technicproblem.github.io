@@ -105,7 +105,7 @@ html {
      z-index: -1;
   }
    .nav {
-    z-index: 10;  
+    z-index: 30;  
    }
 }
 @media (max-width: 884px) {
