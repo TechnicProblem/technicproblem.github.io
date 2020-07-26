@@ -7,46 +7,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="TechnicProblem">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap" rel="stylesheet">
-  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link href="normalize.css" rel="stylesheet">
   <link href="main.css" rel="stylesheet">
 </head>
 
 <body>
-<div class="gridcontainer">
-<div class="header w-screen indexhead p-16 h-56 z-20">
-<h1 class="text-6xl text-white font-bold heading fullwidth">TechnicProblem</h1>
-<h1 class="text-6xl text-white font-bold nowidth" hidden>Technic</h1>
-<h1 class="text-6xl text-white font-bold nowidth" hidden>Problem</h1>
-</div>
 
-<nav class="flex items-center justify-between indexnav flex-col p-16 nav z-10">
+<header>
+<h1>Technic<wbr>Problem</h1>
+</header>
+
+<nav>
 <a href="about.html">
-  <button class="mt-32 w-40 m-1 border-white border-solid border-2 bg-orange-600 hover:bg-orange-700 text-white font-bold py-2 px-4 text-3xl rounded">
+  <button class="margintop button-orange">
     About
   </button>
 </a>
 <a href="projects.html">
-  <button class="w-40 m-1 border-white border-solid border-2 bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 text-3xl rounded">
+  <button class="button-green">
     Projects
   </button>
 </a>
 <a href="contact.html">
-  <button class="w-40 m-1 border-white border-solid border-2 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 text-3xl rounded">
+  <button class="button-blue">
     Contact
   </button>
 </a>
 </nav>
 
-<div class="content">
-<p>New website! Made with HTML, CSS and coffee.</p>
-
+<main class="content">
+<p id="pageContent">New website! Made with HTML, CSS and coffee.</p>
+</main>
+<div class="mobilefooter">
+<p>© TechnicProblem 2019-2020</p>
 </div>
 
-</div>
-
-<div class="w-full flex flex-row p-1 bg-gray-700 text-white bottom-0 absolute">
-<p>© TechnicProblem 2019-2020</p><p class="ml-auto">technicproblem.github.io</p>
-</div>
+<footer>
+<p>© TechnicProblem 2019-2020</p><p class="footer-right">technicproblem.github.io</p>
+</footer>
 
 </body>
 </html>
