@@ -7,88 +7,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="TechnicProblem">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap" rel="stylesheet">
-  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link href="normalize.css" rel="stylesheet">
   <link href="main.css" rel="stylesheet">
 </head>
 
 <body>
-<div class="gridcontainer">
-<div class="header w-screen bg-orange-600 p-16 h-56 z-20">
-<a href="/"><h1 class="text-6xl text-white font-bold heading fullwidth">TechnicProblem</h1></a>
-<a href="/"><h1 class="text-6xl text-white font-bold nowidth" hidden>Technic</h1></a>
-<a href="/"><h1 class="text-6xl text-white font-bold nowidth" hidden>Problem</h1></a>
-<h3 class="text-3xl text-white ml-3">About</h3>
-</div>
 
-<nav class="flex items-center justify-between bg-orange-700 flex-col p-16 nav z-10">
+<header class="orange-light">
+<a href="./"><h1>Technic<wbr>Problem</h1></a>
+<h3>About</h3>
+</header>
+
+<nav class="orange-dark">
 <a href="about.html">
-  <button class="mt-32 w-40 m-1 border-white border-solid border-2 bg-orange-600 hover:bg-orange-700 text-white font-bold py-2 px-4 text-3xl rounded">
+  <button class="margintop button-orange">
     About
   </button>
 </a>
 <a href="projects.html">
-  <button class="w-40 m-1 border-white border-solid border-2 bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 text-3xl rounded">
+  <button class="button-green">
     Projects
   </button>
 </a>
 <a href="contact.html">
-  <button class="w-40 m-1 border-white border-solid border-2 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 text-3xl rounded">
+  <button class="button-blue">
     Contact
   </button>
 </a>
 </nav>
 
-<div class="content">
-<p>Hi! I'm a Swedish student learning how to code, make websites and do other stuff. Made a <a class="link" href="https://technicproblem.github.io/modblock" target="_blank">Minecraft modpack</a>.</p>
-<div class="bg-gray-400 rounded p-1 m-2 leading-relaxed border-gray-600 inline-block">
-<table>
-<thead><h3 class="text-xl">Languages</h3></thead>
-<tr>
-<th>Fluent in</th>
-<th></th>
-<th>Basic knowledge</th>
-</tr>
-
-<tr>
-<td>HTML</td>
-<td tabindex="-1" class="text-gray-400 nope">----------------</td>
-<td>Java</td>
-</tr>
-
-<tr>
-<td>CSS</td>
-<td></td>
-<td>C#</td>
-</tr>
-
-<tr>
-<td></td>
-<td></td>
-<td>JavaScript</td>
-</tr>
-
-<tr>
-<td></td>
-<td></td>
-<td>C++</td>
-</tr>
-
-
-
-</tr>
-
-</table>
-
-
+<main class="content">
+<p id="pageContent">Hi! I'm a Swedish student learning how to code, make websites and do other stuff. <br>I can write and understand HTML and CSS, and a little bit of JavaScript, C#, Java and Python.</p>
+</main>
+<div class="mobilefooter">
+<p>© TechnicProblem 2019-2020</p>
 </div>
 
-</div>
-
-</div>
-
-<div class="w-full flex flex-row p-1 bg-gray-700 text-white bottom-0 absolute">
-<p>© TechnicProblem 2019-2020</p><p class="ml-auto">technicproblem.github.io</p>
-</div>
+<footer>
+<p>© TechnicProblem 2019-2020</p><p class="footer-right">technicproblem.github.io</p>
+</footer>
 
 </body>
 </html>
