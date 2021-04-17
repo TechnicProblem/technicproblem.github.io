@@ -1,0 +1,7 @@
+{
+  "name": "TechnicProblem",
+  "theme_color": "#17a2b8",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/"
+}
